@@ -1,7 +1,7 @@
 # Method development test binary search
 def pesquisa_binaria(lista, item)
   baixo = 0
-  alto = lista.lenght - 1
+  alto = lista.length - 1
 
   while baixo <= alto
     meio = baixo + alto / 2
